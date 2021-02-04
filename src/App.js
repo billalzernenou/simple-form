@@ -1,9 +1,12 @@
 import "./App.css";
+import Form from "./Form";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="App">
+      <Form />
+      <Footer />
     </div>
   );
 }

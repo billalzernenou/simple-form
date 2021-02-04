@@ -1,1 +1,58 @@
 /* Other rules */
+.App {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* FORM */
+.form-steps h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.form-steps {
+  display: flex;
+  justify-content: center;
+}
+form input {
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fcf9f9;
+  padding-left: 10px;
+  margin: 5px 0 25px;
+}
+
+.stepTwo {
+  width: 250px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+form button,
+.stepTwo button {
+  color: #fff;
+  background-color: #5c47d3;
+  border: 1px solid #5c47d3;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+}
+/*------------------------------------------------------*/
+/*-------------------------FOOTER-----------------------*/
+/*------------------------------------------------------*/
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 150px;
+}
